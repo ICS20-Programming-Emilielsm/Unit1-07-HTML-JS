@@ -1,0 +1,19 @@
+/* Created by: Emilie
+ * Created on: Feb. 2022
+ * This CSS file defines the style for index.html 
+*/
+
+body {
+  background-color: Lavender;
+}
+
+h1 {
+  background-color: rgb(69, 58, 140 );
+  color: hsl(248, 37%, 69%);
+  padding: 40px;
+  text-align: center;
+}
+
+p {
+  background-color: #ECEAF9;
+}
