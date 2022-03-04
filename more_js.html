@@ -29,6 +29,29 @@
     </script>
     <h1>Hello, World! with JS</h1>
 		<p>Proper HTML style is important.</p>
+    
+     <!-- Container for web page content -->
+      <main class = "mdl-layout__content" style = "padding-left:20px">
+        <!-- Get user input -->
+        <div class = "page content">Enter the side length of a square:</div>
+
+        <!-- Simple Textfield for Integers (not decimals) -->
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield">
+          <!-- input pattern attribute -->
+          <input class="mdl-textfield__input" type="text" pattern="[0-9]*" id="demo-input" />
+          <!-- mdl-textfield__lable  -->
+          <label class="mdl-textfield__label" for="demo-input">Side of square (mm)</label>
+          <!-- mdl-textfield__error  -->
+          <span class = "mdl-layout__error" style = "padding-left:10px">Input is not an integer</span>
+          </div>
+        </form>
+        
+          <!-- Raised button with ripple -->
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" >
+          Calculate area
+        </button>
+        <br></br>
 		<!-- Colored raised button -->
 		<button onclick="btnClickMe()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
 		  Click Me!
